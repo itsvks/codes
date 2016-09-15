@@ -5,7 +5,6 @@ def get_number_of_pairs(a, n, k):
 	for i in range(n):
 		for j in range(i+1, n):
 			if (a[i] + a[j]) % k == 0:
-				print i, j
 				number_of_pairs = number_of_pairs + 1
 	return number_of_pairs
 
